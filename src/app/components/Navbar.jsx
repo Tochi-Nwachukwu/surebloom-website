@@ -205,7 +205,7 @@ export default function Navbar() {
   };
   return (
     <div className="container mx-auto px-4 py-4">
-      <div className="hidden md:flex items-center justify-between">
+      <div className="hidden xl:flex items-center justify-between">
         {/* Logo Link */}
         <div className="flex items-center">
           <Link href={"/"}>
@@ -213,7 +213,7 @@ export default function Navbar() {
           </Link>
         </div>
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-8">
+        <nav className="hidden lg:flex space-x-8 z-50">
           <Link
             href={"/"}
             className="hover:text-cyan-500 font-medium transition-all"
@@ -269,7 +269,7 @@ export default function Navbar() {
       </div>
       {/* Mobile Nav */}
 
-      <div className="relative px-5 h-10 flex justify-between items-center bg-white xl:hidden">
+      <div className="relative px-5 h-10 flex justify-between items-center bg-white xl:hidden z-50">
         <div className="">
           <Link href="/">
             <Image
