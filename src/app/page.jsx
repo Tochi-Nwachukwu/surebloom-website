@@ -72,7 +72,7 @@ export default function Home() {
           </div>
           <div className="md:flex md:flex-row mx-auto md:max-w-4xl xl:max-w-5xl xl:space-x-110 md:space-x-50  px-4 md:mt-25 xl:mt-35 mt-15">
             <h3 className="text-4xl md:text-6xl">
-              One School, <span className="md:block mt-2">Many Stories</span>{" "}
+              One School, <span className="block mt-2">Many Stories</span>{" "}
             </h3>
           </div>
           <hr className="md:flex md:flex-row mx-auto md:max-w-4xl xl:max-w-5xl xl:space-x-110 md:space-x-50 px-4 md:mt-10 xl:mt-15 mt-6" />
