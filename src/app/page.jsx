@@ -40,7 +40,7 @@ export default function Home() {
               </h3>
               <div className="flex space-x-8 md:mt-8 md:mb-8 mt-6 mb-6">
                 <div>
-                  <h3 className="text-5xl text-[#3697B8]">15k+</h3>
+                  <h3 className="text-5xl text-[#3697B8]">15+</h3>
                   <p className="text-neutral-600 text-sm">Years Operation</p>
                 </div>
 
@@ -71,7 +71,7 @@ export default function Home() {
             ></Image>
           </div>
           <div className="md:flex md:flex-row mx-auto md:max-w-4xl xl:max-w-5xl xl:space-x-110 md:space-x-50  px-4 md:mt-25 xl:mt-35 mt-15">
-            <h3 className="text-2xl md:text-6xl">
+            <h3 className="text-4xl md:text-6xl">
               One School, <span className="md:block mt-2">Many Stories</span>{" "}
             </h3>
           </div>
@@ -164,9 +164,9 @@ export default function Home() {
       </section>
       <section className="w-full relative md:px-12 px-4 md:mt-12 mt-6 ">
         <div className="md:flex md:flex-row mx-auto md:max-w-4xl xl:max-w-5xl xl:space-x-110 md:space-x-50  px-4 md:mt-10 xl:mt-15 mt-6">
-          <h3 className="text-2xl md:text-6xl">
+          <h3 className="text-4xl md:text-6xl">
             Nurturing Mind
-            <span className="md:block mt-2"> & Heart </span>{" "}
+            <span className="block mt-2"> & Heart </span>{" "}
           </h3>
         </div>
         <hr className="md:flex md:flex-row mx-auto md:max-w-4xl xl:max-w-5xl xl:space-x-110 md:space-x-50 px-4 md:mt-10 xl:mt-15 mt-6" />
